@@ -175,14 +175,40 @@ ul {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal {
   position: absolute;
   height: 581px;
   width: 528px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.close-modal-btn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.close-icon-btn {
+  height: 18px;
+  width: 18px;
 }
 
 /* Main */
