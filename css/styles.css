@@ -51,11 +51,15 @@ p {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-photo-link {
   text-decoration: none;
   flex-basis: calc(100% / 3 - 30px);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ul {
@@ -135,8 +139,6 @@ ul {
 .mail-btn-footer:hover,
 .tel-btn-footer:hover {
   color: var(--focus-color-text);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-btn:focus,
@@ -308,6 +310,8 @@ ul {
   border-radius: 4px;
   border-color: transparent;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:focus {
@@ -318,8 +322,6 @@ ul {
 .hero-btn:hover {
   background-color: var(--accent-hero-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Секция преимуществ */
@@ -497,6 +499,8 @@ ul {
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-network {
@@ -506,15 +510,11 @@ ul {
 .network-link:hover .icon-network,
 .network-link:focus .icon-network {
   fill: #ffffff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .network-link:hover,
 .network-link:focus {
   background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Постоянные клиенты */
@@ -542,6 +542,8 @@ ul {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item {
@@ -552,20 +554,18 @@ ul {
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item:hover .clients-logo,
 .clients-item:focus .clients-logo {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item:hover,
 .clients-item:focus {
   border-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer */
@@ -657,8 +657,6 @@ footer {
 .icon-contacts-mail:hover,
 .icon-contacts-phone:hover {
   color: var(--focus-color-text);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer {
@@ -700,13 +698,13 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container {
@@ -756,6 +754,8 @@ footer {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-button:hover {
@@ -763,8 +763,6 @@ footer {
   background-color: var(--focus-color-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-button:focus {
@@ -814,8 +812,6 @@ footer {
 .list-photo:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-portfolio {
@@ -847,6 +843,4 @@ footer {
 .list-photo-link:hover .text-overlay-portfolio,
 .list-photo-link:focus .text-overlay-portfolio {
   transform: translateY(0);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
